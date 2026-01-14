@@ -173,3 +173,17 @@ header{
     color: #131313;
     margin-bottom: 10px;
 }
+#features-you .features-you-image .big-text{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4.4rem;
+}
+#features-you .features-you-image .big-button{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 2.8rem 3rem;
+    position: relative;
+    left: -92px;
+    top: -120px;
+}
