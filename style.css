@@ -145,3 +145,31 @@ header{
 #features .features-content .features-description{
     margin-bottom: 32px;
 }
+
+
+
+/* ==========features you section =============*/
+
+#features-you{
+    gap: 146px  ;
+}
+#features-you .features-you-title-div{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 1.5rem;
+}
+#features-you .features-you-description{
+    margin-bottom: 1.9rem;
+}
+#features-you .features-you-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 6%);
+    margin-bottom: 20px;
+}
+#features-you .features-you-card .features-you-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
