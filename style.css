@@ -227,3 +227,76 @@ header{
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+
+/* sponspors section */
+#sponspors {
+    text-align: center;
+}
+#sponspors .sponspors-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sponspors .sponspors-content h3{
+    margin-bottom: 24px;
+}
+#sponspors p{
+    max-width: 542px;
+}
+#sponspors .logo-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+/* hidden class */
+.hidden{
+    display: none;
+}
+/* footer section */
+
+
+footer{
+     background-color: #FFF4E7;
+     text-align: center;
+     padding: 40px;
+}
+footer p{
+    font-size: 1.25rem;
+    color: #727272;
+}
+
+
+
+/* responsive design  */
+
+@media  screen and (max-width:576px) {
+    /* shared style */
+    .heading-45{
+        font-size: 2rem;
+    }
+
+
+    /* normal style */
+    header{
+        padding: 20px 0;
+    }
+    #header #nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #header #nav ul{
+        gap: 1.25rem;
+    }
+
+    /* banner section */
+    #banner{
+        padding: 0 1rem;
+    }
+    #banner .banner-title{
+    font-size: 2rem;
+}
+}
