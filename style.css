@@ -192,7 +192,7 @@ header{
 
 /* fact section */
 #fact-section .fact-description{
-    width: 542px;
+    max-width: 542px;
     margin-top: 24px;
 }
 #fact-section .fact-card-container{
@@ -280,6 +280,9 @@ footer p{
     }
 
 
+    
+
+
     /* normal style */
     header{
         padding: 20px 0;
@@ -292,11 +295,102 @@ footer p{
         gap: 1.25rem;
     }
 
+
     /* banner section */
     #banner{
         padding: 0 1rem;
+        margin-top: 50px;
     }
     #banner .banner-title{
     font-size: 2rem;
 }
+
+
+    /* features section */
+    #features{
+        flex-direction: column-reverse;
+        padding: 0 1rem;
+        margin-top: 80px;
+    }
+    #features .features-content .features-title{
+    font-size: 2.2rem;
+    }
+    #features .features-images{
+        gap: 0.6rem;
+    }
+
+
+
+    /* features you section */
+    #features-you{
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 80px;
+        gap: 50px;
+    }
+     #features-you .features-you-title{
+        font-size: 1.8rem;
+     }
+     #features-you .features-you-card{
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 6%);
+    margin-bottom: 20px;
+    }
+    #features-you .features-you-image{
+        text-align: center;
+    }
+    #features-you .features-you-image img{
+        max-width: 100%;
+    }
+    #features-you .features-you-image .big-button{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1.25rem 1.5rem;
+        position: relative;
+        left: 0;
+        top: -60px;
+    }
+    #features-you .features-you-image .big-button .big-text{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+
+    /* fact section */
+    #fact-section{
+        padding: 0 1rem;
+    }
+    #fact-section .fact-card-container{
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,241px);
+    gap: 1rem;
+    }
+
+    /* sponspors section */
+    #sponspors{
+        padding: 0 1rem;
+        margin-top: 80px;
+    }
+    #sponspors .logo-container{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,1fr);
+    gap: 4rem;
+    }
+    
+    #sponspors .logo-container .items img{
+        max-width: 100%;
+    }
+
+    /* footer section */
+    footer{
+     padding: 1rem;
+     margin-top: 80px;
+    }
+    footer p{
+        font-size: 0.9rem;
+    }
 }
